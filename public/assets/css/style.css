@@ -1,3 +1,15 @@
+.card {
+  background-color: rgb(238, 191, 147);
+}
+
+.card-body{
+  background-color: rgb(255, 213, 158);
+}
+
+.imageheader{
+  background-color: #f6f6f6;
+}
+
 li {
   padding: 5px;
   margin: 5px;
@@ -21,3 +33,20 @@ li {
 .img {
   width: 20%;
 }
+
+.ready{
+  background-color: rgb(255, 218, 162);
+}
+
+.devoured {
+  background-color: rgb(228, 129, 48);
+}
+
+.devoured .delete-burger{
+  visibility: hidden;
+}
+
+.devoured .change-devoured{
+  visibility: hidden;
+}
+
